@@ -15,6 +15,14 @@
 		BCC84CA22B4041FE0019397E /* BhikshuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CA12B4041FE0019397E /* BhikshuTests.swift */; };
 		BCC84CAC2B4041FE0019397E /* BhikshuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CAB2B4041FE0019397E /* BhikshuUITests.swift */; };
 		BCC84CAE2B4041FE0019397E /* BhikshuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CAD2B4041FE0019397E /* BhikshuUITestsLaunchTests.swift */; };
+		BCC84CBC2B4043220019397E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CBB2B4043220019397E /* HomeView.swift */; };
+		BCC84CBE2B4043C30019397E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CBD2B4043C30019397E /* SettingsView.swift */; };
+		BCC84CC02B4043D80019397E /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CBF2B4043D80019397E /* NotificationsView.swift */; };
+		BCC84CC22B4044290019397E /* QuestionsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CC12B4044290019397E /* QuestionsPreview.swift */; };
+		BCC84CC42B4044BE0019397E /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CC32B4044BE0019397E /* Avatar.swift */; };
+		BCC84CC62B4058FE0019397E /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CC52B4058FE0019397E /* QuestionView.swift */; };
+		BCC84CC82B405BBA0019397E /* CommentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CC72B405BBA0019397E /* CommentsList.swift */; };
+		BCC84CCA2B405C9B0019397E /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CC92B405C9B0019397E /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,14 @@
 		BCC84CA72B4041FE0019397E /* BhikshuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BhikshuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC84CAB2B4041FE0019397E /* BhikshuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhikshuUITests.swift; sourceTree = "<group>"; };
 		BCC84CAD2B4041FE0019397E /* BhikshuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhikshuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCC84CBB2B4043220019397E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BCC84CBD2B4043C30019397E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BCC84CBF2B4043D80019397E /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		BCC84CC12B4044290019397E /* QuestionsPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsPreview.swift; sourceTree = "<group>"; };
+		BCC84CC32B4044BE0019397E /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		BCC84CC52B4058FE0019397E /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		BCC84CC72B405BBA0019397E /* CommentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsList.swift; sourceTree = "<group>"; };
+		BCC84CC92B405C9B0019397E /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +112,7 @@
 		BCC84C8D2B4041FD0019397E /* Bhikshu */ = {
 			isa = PBXGroup;
 			children = (
+				BCC84CBA2B4043170019397E /* Views */,
 				BCC84C8E2B4041FD0019397E /* BhikshuApp.swift */,
 				BCC84C902B4041FD0019397E /* ContentView.swift */,
 				BCC84C922B4041FD0019397E /* Item.swift */,
@@ -128,6 +145,21 @@
 				BCC84CAD2B4041FE0019397E /* BhikshuUITestsLaunchTests.swift */,
 			);
 			path = BhikshuUITests;
+			sourceTree = "<group>";
+		};
+		BCC84CBA2B4043170019397E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCC84CBB2B4043220019397E /* HomeView.swift */,
+				BCC84CBD2B4043C30019397E /* SettingsView.swift */,
+				BCC84CBF2B4043D80019397E /* NotificationsView.swift */,
+				BCC84CC12B4044290019397E /* QuestionsPreview.swift */,
+				BCC84CC32B4044BE0019397E /* Avatar.swift */,
+				BCC84CC52B4058FE0019397E /* QuestionView.swift */,
+				BCC84CC72B405BBA0019397E /* CommentsList.swift */,
+				BCC84CC92B405C9B0019397E /* Comment.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCC84CBE2B4043C30019397E /* SettingsView.swift in Sources */,
 				BCC84C912B4041FD0019397E /* ContentView.swift in Sources */,
+				BCC84CC82B405BBA0019397E /* CommentsList.swift in Sources */,
+				BCC84CBC2B4043220019397E /* HomeView.swift in Sources */,
 				BCC84C932B4041FD0019397E /* Item.swift in Sources */,
 				BCC84C8F2B4041FD0019397E /* BhikshuApp.swift in Sources */,
+				BCC84CC02B4043D80019397E /* NotificationsView.swift in Sources */,
+				BCC84CC42B4044BE0019397E /* Avatar.swift in Sources */,
+				BCC84CC62B4058FE0019397E /* QuestionView.swift in Sources */,
+				BCC84CCA2B405C9B0019397E /* Comment.swift in Sources */,
+				BCC84CC22B4044290019397E /* QuestionsPreview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
