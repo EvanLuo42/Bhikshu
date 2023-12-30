@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCC84C8F2B4041FD0019397E /* BhikshuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84C8E2B4041FD0019397E /* BhikshuApp.swift */; };
+		BCC84C912B4041FD0019397E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84C902B4041FD0019397E /* ContentView.swift */; };
+		BCC84C932B4041FD0019397E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84C922B4041FD0019397E /* Item.swift */; };
+		BCC84C952B4041FE0019397E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC84C942B4041FE0019397E /* Assets.xcassets */; };
+		BCC84C982B4041FE0019397E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC84C972B4041FE0019397E /* Preview Assets.xcassets */; };
+		BCC84CA22B4041FE0019397E /* BhikshuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CA12B4041FE0019397E /* BhikshuTests.swift */; };
+		BCC84CAC2B4041FE0019397E /* BhikshuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CAB2B4041FE0019397E /* BhikshuUITests.swift */; };
+		BCC84CAE2B4041FE0019397E /* BhikshuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC84CAD2B4041FE0019397E /* BhikshuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCC84C9E2B4041FE0019397E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC84C832B4041FD0019397E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC84C8A2B4041FD0019397E;
+			remoteInfo = Bhikshu;
+		};
+		BCC84CA82B4041FE0019397E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCC84C832B4041FD0019397E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCC84C8A2B4041FD0019397E;
+			remoteInfo = Bhikshu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCC84C8B2B4041FD0019397E /* Bhikshu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bhikshu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC84C8E2B4041FD0019397E /* BhikshuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhikshuApp.swift; sourceTree = "<group>"; };
+		BCC84C902B4041FD0019397E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCC84C922B4041FD0019397E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BCC84C942B4041FE0019397E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCC84C972B4041FE0019397E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCC84C9D2B4041FE0019397E /* BhikshuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BhikshuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC84CA12B4041FE0019397E /* BhikshuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhikshuTests.swift; sourceTree = "<group>"; };
+		BCC84CA72B4041FE0019397E /* BhikshuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BhikshuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC84CAB2B4041FE0019397E /* BhikshuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhikshuUITests.swift; sourceTree = "<group>"; };
+		BCC84CAD2B4041FE0019397E /* BhikshuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BhikshuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC84C882B4041FD0019397E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC84C9A2B4041FE0019397E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC84CA42B4041FE0019397E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC84C822B4041FD0019397E = {
+			isa = PBXGroup;
+			children = (
+				BCC84C8D2B4041FD0019397E /* Bhikshu */,
+				BCC84CA02B4041FE0019397E /* BhikshuTests */,
+				BCC84CAA2B4041FE0019397E /* BhikshuUITests */,
+				BCC84C8C2B4041FD0019397E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC84C8C2B4041FD0019397E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC84C8B2B4041FD0019397E /* Bhikshu.app */,
+				BCC84C9D2B4041FE0019397E /* BhikshuTests.xctest */,
+				BCC84CA72B4041FE0019397E /* BhikshuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC84C8D2B4041FD0019397E /* Bhikshu */ = {
+			isa = PBXGroup;
+			children = (
+				BCC84C8E2B4041FD0019397E /* BhikshuApp.swift */,
+				BCC84C902B4041FD0019397E /* ContentView.swift */,
+				BCC84C922B4041FD0019397E /* Item.swift */,
+				BCC84C942B4041FE0019397E /* Assets.xcassets */,
+				BCC84C962B4041FE0019397E /* Preview Content */,
+			);
+			path = Bhikshu;
+			sourceTree = "<group>";
+		};
+		BCC84C962B4041FE0019397E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCC84C972B4041FE0019397E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCC84CA02B4041FE0019397E /* BhikshuTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC84CA12B4041FE0019397E /* BhikshuTests.swift */,
+			);
+			path = BhikshuTests;
+			sourceTree = "<group>";
+		};
+		BCC84CAA2B4041FE0019397E /* BhikshuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC84CAB2B4041FE0019397E /* BhikshuUITests.swift */,
+				BCC84CAD2B4041FE0019397E /* BhikshuUITestsLaunchTests.swift */,
+			);
+			path = BhikshuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC84C8A2B4041FD0019397E /* Bhikshu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC84CB12B4041FE0019397E /* Build configuration list for PBXNativeTarget "Bhikshu" */;
+			buildPhases = (
+				BCC84C872B4041FD0019397E /* Sources */,
+				BCC84C882B4041FD0019397E /* Frameworks */,
+				BCC84C892B4041FD0019397E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bhikshu;
+			productName = Bhikshu;
+			productReference = BCC84C8B2B4041FD0019397E /* Bhikshu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCC84C9C2B4041FE0019397E /* BhikshuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC84CB42B4041FE0019397E /* Build configuration list for PBXNativeTarget "BhikshuTests" */;
+			buildPhases = (
+				BCC84C992B4041FE0019397E /* Sources */,
+				BCC84C9A2B4041FE0019397E /* Frameworks */,
+				BCC84C9B2B4041FE0019397E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC84C9F2B4041FE0019397E /* PBXTargetDependency */,
+			);
+			name = BhikshuTests;
+			productName = BhikshuTests;
+			productReference = BCC84C9D2B4041FE0019397E /* BhikshuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCC84CA62B4041FE0019397E /* BhikshuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC84CB72B4041FE0019397E /* Build configuration list for PBXNativeTarget "BhikshuUITests" */;
+			buildPhases = (
+				BCC84CA32B4041FE0019397E /* Sources */,
+				BCC84CA42B4041FE0019397E /* Frameworks */,
+				BCC84CA52B4041FE0019397E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCC84CA92B4041FE0019397E /* PBXTargetDependency */,
+			);
+			name = BhikshuUITests;
+			productName = BhikshuUITests;
+			productReference = BCC84CA72B4041FE0019397E /* BhikshuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC84C832B4041FD0019397E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					BCC84C8A2B4041FD0019397E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					BCC84C9C2B4041FE0019397E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = BCC84C8A2B4041FD0019397E;
+					};
+					BCC84CA62B4041FE0019397E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = BCC84C8A2B4041FD0019397E;
+					};
+				};
+			};
+			buildConfigurationList = BCC84C862B4041FD0019397E /* Build configuration list for PBXProject "Bhikshu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCC84C822B4041FD0019397E;
+			productRefGroup = BCC84C8C2B4041FD0019397E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC84C8A2B4041FD0019397E /* Bhikshu */,
+				BCC84C9C2B4041FE0019397E /* BhikshuTests */,
+				BCC84CA62B4041FE0019397E /* BhikshuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC84C892B4041FD0019397E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC84C982B4041FE0019397E /* Preview Assets.xcassets in Resources */,
+				BCC84C952B4041FE0019397E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC84C9B2B4041FE0019397E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC84CA52B4041FE0019397E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC84C872B4041FD0019397E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC84C912B4041FD0019397E /* ContentView.swift in Sources */,
+				BCC84C932B4041FD0019397E /* Item.swift in Sources */,
+				BCC84C8F2B4041FD0019397E /* BhikshuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC84C992B4041FE0019397E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC84CA22B4041FE0019397E /* BhikshuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC84CA32B4041FE0019397E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC84CAC2B4041FE0019397E /* BhikshuUITests.swift in Sources */,
+				BCC84CAE2B4041FE0019397E /* BhikshuUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCC84C9F2B4041FE0019397E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC84C8A2B4041FD0019397E /* Bhikshu */;
+			targetProxy = BCC84C9E2B4041FE0019397E /* PBXContainerItemProxy */;
+		};
+		BCC84CA92B4041FE0019397E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCC84C8A2B4041FD0019397E /* Bhikshu */;
+			targetProxy = BCC84CA82B4041FE0019397E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCC84CAF2B4041FE0019397E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCC84CB02B4041FE0019397E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC84CB22B4041FE0019397E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bhikshu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.el42.Bhikshu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCC84CB32B4041FE0019397E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bhikshu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.el42.Bhikshu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCC84CB52B4041FE0019397E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.el42.BhikshuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bhikshu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bhikshu";
+			};
+			name = Debug;
+		};
+		BCC84CB62B4041FE0019397E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.el42.BhikshuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bhikshu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bhikshu";
+			};
+			name = Release;
+		};
+		BCC84CB82B4041FE0019397E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.el42.BhikshuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bhikshu;
+			};
+			name = Debug;
+		};
+		BCC84CB92B4041FE0019397E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.el42.BhikshuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bhikshu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC84C862B4041FD0019397E /* Build configuration list for PBXProject "Bhikshu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC84CAF2B4041FE0019397E /* Debug */,
+				BCC84CB02B4041FE0019397E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC84CB12B4041FE0019397E /* Build configuration list for PBXNativeTarget "Bhikshu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC84CB22B4041FE0019397E /* Debug */,
+				BCC84CB32B4041FE0019397E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC84CB42B4041FE0019397E /* Build configuration list for PBXNativeTarget "BhikshuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC84CB52B4041FE0019397E /* Debug */,
+				BCC84CB62B4041FE0019397E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC84CB72B4041FE0019397E /* Build configuration list for PBXNativeTarget "BhikshuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC84CB82B4041FE0019397E /* Debug */,
+				BCC84CB92B4041FE0019397E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC84C832B4041FD0019397E /* Project object */;
+}
