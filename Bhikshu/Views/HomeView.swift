@@ -8,28 +8,30 @@
 import SwiftUI
 
 struct HomeView: View {
-    let categories = ["推荐", "热门"]
-    @State private var selectedCategory = "推荐"
+    @ObservedObject var viewModel: HomeViewModel = HomeViewModel()
+    
+    @State private var selectedCategory = Category.Recommend
     @State private var searchQuestion = ""
     
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink(destination: { QuestionView() }) {
-                    QuestionsPreview()
-                }
-                NavigationLink(destination: { Text("ABC") }) {
-                    QuestionsPreview()
+                ForEach(viewModel.answers) { answer in
+                    NavigationLink(destination: { AnswerView(answerId: answer.answerId) }) {
+                        AnswerPreview(answer: answer)
+                    }
                 }
             }
             .listStyle(.plain)
-            .navigationTitle(selectedCategory)
+            .navigationTitle(selectedCategory.rawValue)
             .navigationBarTitleDisplayMode(.inline)
             .toolbarTitleMenu {
                 Picker("", selection: $selectedCategory) {
-                    ForEach(categories, id: \.self) {
-                        Text($0)
+                    ForEach(Category.allCases, id: \.self) {
+                        Text($0.rawValue)
                     }
+                }.onChange(of: selectedCategory) {
+                    viewModel.fetchAnswers(category: selectedCategory)
                 }
             }
             .toolbar {
@@ -37,7 +39,14 @@ struct HomeView: View {
                     Label("", systemImage: "plus.circle.fill")
                 }
             }
-        }.searchable(text: $searchQuestion)
+        }
+        .onAppear {
+            viewModel.fetchAnswers(category: selectedCategory)
+        }
+        .refreshable {
+            viewModel.fetchAnswers(category: selectedCategory)
+        }
+        .searchable(text: $searchQuestion)
     }
 }
 

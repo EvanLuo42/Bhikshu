@@ -7,7 +7,11 @@
 
 import SwiftUI
 
-struct QuestionView: View {
+struct AnswerView: View {
+    let answerId: String
+    
+    @ObservedObject var viewModel = AnswerViewModel()
+    
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -15,13 +19,13 @@ struct QuestionView: View {
                     NavigationLink(destination: {}) {
                         HStack {
                             VStack(alignment: .leading) {
-                                Text("为什么 GCC 要提供 Go 和 Rust 的支持？")
+                                Text(viewModel.answer.questionTitle)
                                     .font(.headline)
                             }
                             Image(systemName: "chevron.right")
                         }
                     }.buttonStyle(PlainButtonStyle())
-                    Text("3 个回答 · 10 个关注")
+                    Text("\(viewModel.answer.questionAnswerCount) 个回答 · \(viewModel.answer.questionFollowCount) 个关注")
                         .font(.subheadline)
                     
                     Divider()
@@ -30,15 +34,15 @@ struct QuestionView: View {
                         NavigationLink(destination: {}) {
                             HStack {
                                 Avatar(
-                                    imageUrl: "https://avatars.githubusercontent.com/u/62578958?v=4",
+                                    imageUrl: viewModel.answer.answerUser.avatarUrl,
                                     width: 35,
                                     height: 35
                                 )
                                 VStack(alignment: .leading) {
-                                    Text("EvanLuo42")
+                                    Text(viewModel.answer.answerUser.username)
                                         .font(.subheadline)
                                         .bold()
-                                    Text("Description")
+                                    Text(viewModel.answer.answerUser.description)
                                         .font(.footnote)
                                 }
                             }
@@ -46,28 +50,26 @@ struct QuestionView: View {
                         .buttonStyle(PlainButtonStyle())
                         .padding(EdgeInsets(top: 5, leading: 0, bottom: 5, trailing: 0))
                         
-                        Text(
-                            """
-                            借用 Linux 之父 Linus Torvalds 的说法。 其他的格式在对人友好和对机器友好至少要占一样，而XML是一种罕见的对人对机器都不友好的格式
-
-                            完全不理解这种东西是怎么被设计出来的…
-                            """
-                        )
+                        Text(viewModel.answer.content)
                         
-                        Text("发布于 2023-12-30 22:06")
+                        Text("发布于 \(viewModel.answer.time.formatted())")
                             .font(.footnote)
                             .foregroundStyle(.secondary)
                         
                         Divider()
                     }
-                    CommentsList()
+                    CommentsList(comments: viewModel.answer.comments)
                 }
                 Spacer()
             }
-        }.padding()
+        }
+        .onAppear {
+            viewModel.fetchAnswer(answerId: "")
+        }
+        .padding()
     }
 }
 
 #Preview {
-    QuestionView()
+    AnswerView(answerId: "testId")
 }
